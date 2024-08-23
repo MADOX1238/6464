@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Space Chat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #282c34;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .welcome-container {
+            text-align: center;
+        }
+        .btn {
+            background-color: #61dafb;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome-container">
+        <h1>Welcome to Space Chat!</h1>
+        <p>Join the chat and connect with others.</p>
+        <button class="btn" onclick="enterChat()">Enter Chat</button>
+    </div>
+
+    <script>
+        function enterChat() {
+            window.location.href = 'chat.html';  // الانتقال إلى صفحة الدردشة العامة
+        }
+    </script>
+
+</body></html>
